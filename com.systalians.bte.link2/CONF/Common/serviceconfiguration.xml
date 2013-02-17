@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+	<refresh-delay>60000</refresh-delay>
+	<env-cle>ENV</env-cle>
+	<referentiel>
+		<fichier>configuration-exploitant.properties</fichier>
+	</referentiel>
+	<environnements>
+		<defaut>VCLI</defaut>
+		<environnement>
+			<code>DEV</code>
+			<libelle>Développement</libelle>
+			<repertoire>DEV</repertoire>
+		</environnement>
+		<environnement>
+			<code>TU</code>
+			<libelle>Tests unitaires</libelle>
+			<repertoire>TU</repertoire>
+		</environnement>
+		<environnement>
+			<code>TI</code>
+			<libelle>Tests intégration</libelle>
+			<repertoire>TI</repertoire>
+		</environnement>
+		<environnement>
+			<code>SI</code>
+			<libelle>Tests installation</libelle>
+			<repertoire>SI</repertoire>
+		</environnement>
+		<environnement>
+			<code>VCLI</code>
+			<libelle>Validation client</libelle>
+			<repertoire>VCLI</repertoire>
+		</environnement>
+	</environnements>
+	<!-- définition des utilisateur support -->
+	<utilisateurs>		
+	</utilisateurs>
+</configuration>

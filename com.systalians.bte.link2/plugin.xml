@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin>
+
+   <extension
+         id="product"
+         point="org.eclipse.core.runtime.products">
+      <product
+            name="com.systalians.bte.link2"
+            application="org.eclipse.e4.ui.workbench.swt.E4Application">
+         <property
+               name="appName"
+               value="com.systalians.bte.link2">
+         </property>
+         <property
+               name="applicationXMI"
+               value="com.systalians.bte.link2/Application.e4xmi">
+         </property>
+          <property
+			   name="lifeCycleURI"
+			   value="bundleclass://com.systalians.bte.link2/com.systalians.bte.link2.extensions.UIModelBuilder">
+		 </property>
+		 <property
+               name="applicationCSS"
+               value="platform:/plugin/com.systalians.bte.link2/css/default.css">
+         </property>
+      </product>
+   </extension>
+
+</plugin>

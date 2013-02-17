@@ -1,0 +1,39 @@
+.MTrimmedWindow { 
+    background-color: #E1E6F6; 
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.MTrimmedWindow.topLevel { 
+    margin-top: 10px;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-image:  url(./vs2010background.png);
+}
+
+.MPartStack {
+    tab-renderer: url('platform:/plugin/org.eclipse.e4.ui.workbench.renderers.swt/org.eclipse.e4.ui.workbench.renderers.swt.CTabRendering');
+    unselected-tabs-color: #FFFFFF #FFFFFF #FFFFFF 100% 100%;
+    outer-keyline-color: #FFFFFF;
+        inner-keyline-color: #FFFFFF;
+        font-size: 9;
+        font-family: 'Segoe UI';
+        simple: false;
+}
+
+.MTrimBar {
+    background-color: #293955; 
+}
+
+.MTrimBar#org-eclipse-ui-main-toolbar {
+        background-color: #9caac1;
+}
+
+.MPartStack.active {
+        unselected-tabs-color: #fffaeb #ffe8a6 #ffe8a6 #ffffff 50% 100% 100%;
+    outer-keyline-color: #B6BCCC;
+        inner-keyline-color: #FFFFFF;
+}

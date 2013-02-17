@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application:Application xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:advanced="http://www.eclipse.org/ui/2010/UIModel/application/ui/advanced" xmlns:application="http://www.eclipse.org/ui/2010/UIModel/application" xmlns:basic="http://www.eclipse.org/ui/2010/UIModel/application/ui/basic" xmlns:menu="http://www.eclipse.org/ui/2010/UIModel/application/ui/menu" xmi:id="_I11pMHbHEeK6YI08PxLEKA" elementId="org.eclipse.e4.ide.application" bindingContexts="_I11pMXbHEeK6YI08PxLEKA">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_I11pR3bHEeK6YI08PxLEKA" selectedElement="_I11pT3bHEeK6YI08PxLEKA" label="Link" iconURI="" width="1400" height="950">
+    <children xsi:type="advanced:PerspectiveStack" xmi:id="_I11pT3bHEeK6YI08PxLEKA" selectedElement="_I11pUHbHEeK6YI08PxLEKA">
+      <children xsi:type="advanced:Perspective" xmi:id="_I11pUHbHEeK6YI08PxLEKA">
+        <children xsi:type="basic:PartSashContainer" xmi:id="_hX710HdSEeK3bdmKBFhHXA" elementId="com.systalians.bte.link2.partsashcontainer.0" horizontal="true">
+          <children xsi:type="basic:Part" xmi:id="_jNDkYHdSEeK3bdmKBFhHXA" elementId="com.systalians.bte.link2.part.0" contributionURI="bundleclass://com.systalians.bte.link2/com.systalians.bte.link2.part.CRMPart"/>
+          <children xsi:type="basic:PartStack" xmi:id="_j0Mc4HdSEeK3bdmKBFhHXA" elementId="com.systalians.bte.link2.partstack.0">
+            <children xsi:type="basic:Part" xmi:id="_pdRlQHdSEeK3bdmKBFhHXA" elementId="com.systalians.bte.link2.part.0" label="Mes outils"/>
+            <children xsi:type="basic:Part" xmi:id="_p_WXkHdSEeK3bdmKBFhHXA" elementId="com.systalians.bte.link2.part.0" label="Mes processus"/>
+          </children>
+        </children>
+      </children>
+    </children>
+    <trimBars xmi:id="_I11pU3bHEeK6YI08PxLEKA" toBeRendered="false" visible="false">
+      <children xsi:type="menu:ToolBar" xmi:id="_I11pVHbHEeK6YI08PxLEKA" elementId="toolbar:org.eclipse.ui.main.toolbar" toBeRendered="false" visible="false">
+        <children xsi:type="menu:HandledToolItem" xmi:id="_I11pVXbHEeK6YI08PxLEKA" iconURI="platform:/plugin/com.systalians.bte.link2/icons/sample.gif" command="_I11pPnbHEeK6YI08PxLEKA"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_I11pVnbHEeK6YI08PxLEKA" iconURI="platform:/plugin/com.systalians.bte.link2/icons/save_edit.gif" command="_I11pQXbHEeK6YI08PxLEKA"/>
+      </children>
+    </trimBars>
+    <trimBars xmi:id="_iFDncHeHEeK3bdmKBFhHXA" elementId="com.systalians.bte.link2.trimbar.0" side="Right">
+      <children xsi:type="menu:ToolControl" xmi:id="_kwZzYHeHEeK3bdmKBFhHXA" elementId="com.systalians.bte.link2.toolcontrol.0" contributionURI="bundleclass://com.systalians.bte.link2/com.systalians.bte.link2.part.RightTrimPart"/>
+    </trimBars>
+  </children>
+  <handlers xmi:id="_I11pO3bHEeK6YI08PxLEKA" contributionURI="bundleclass://com.systalians.bte.link2/com.systalians.bte.link2.handlers.QuitHandler" command="_I11pOnbHEeK6YI08PxLEKA"/>
+  <handlers xmi:id="_I11pP3bHEeK6YI08PxLEKA" contributionURI="bundleclass://com.systalians.bte.link2/com.systalians.bte.link2.handlers.OpenHandler" command="_I11pPnbHEeK6YI08PxLEKA"/>
+  <handlers xmi:id="_I11pQnbHEeK6YI08PxLEKA" contributionURI="bundleclass://com.systalians.bte.link2/com.systalians.bte.link2.handlers.SaveHandler" command="_I11pQXbHEeK6YI08PxLEKA"/>
+  <handlers xmi:id="_I11pRXbHEeK6YI08PxLEKA" contributionURI="bundleclass://com.systalians.bte.link2/com.systalians.bte.link2.handlers.AboutHandler" command="_I11pRHbHEeK6YI08PxLEKA"/>
+  <bindingTables xmi:id="_I11pPHbHEeK6YI08PxLEKA" bindingContext="_I11pMXbHEeK6YI08PxLEKA">
+    <bindings xmi:id="_I11pPXbHEeK6YI08PxLEKA" keySequence="M1+Q" command="_I11pOnbHEeK6YI08PxLEKA"/>
+    <bindings xmi:id="_I11pQHbHEeK6YI08PxLEKA" keySequence="M1+O" command="_I11pPnbHEeK6YI08PxLEKA"/>
+    <bindings xmi:id="_I11pQ3bHEeK6YI08PxLEKA" keySequence="M1+S" command="_I11pQXbHEeK6YI08PxLEKA"/>
+    <bindings xmi:id="_I11pRnbHEeK6YI08PxLEKA" keySequence="M1+A" command="_I11pRHbHEeK6YI08PxLEKA"/>
+  </bindingTables>
+  <rootContext xmi:id="_I11pMXbHEeK6YI08PxLEKA" elementId="org.eclipse.ui.contexts.dialogAndWindow" name="In Dialog and Windows">
+    <children xmi:id="_I11pMnbHEeK6YI08PxLEKA" elementId="org.eclipse.ui.contexts.window" name="In Windows"/>
+    <children xmi:id="_I11pM3bHEeK6YI08PxLEKA" elementId="org.eclipse.ui.contexts.dialog" name="In Dialogs"/>
+  </rootContext>
+  <commands xmi:id="_I11pOnbHEeK6YI08PxLEKA" elementId="org.eclipse.ui.file.exit" commandName="quitCommand"/>
+  <commands xmi:id="_I11pPnbHEeK6YI08PxLEKA" elementId="com.systalians.bte.link2.open" commandName="openCommand"/>
+  <commands xmi:id="_I11pQXbHEeK6YI08PxLEKA" elementId="org.eclipse.ui.file.save" commandName="saveCommand"/>
+  <commands xmi:id="_I11pRHbHEeK6YI08PxLEKA" elementId="org.eclipse.ui.help.aboutAction" commandName="aboutCommand"/>
+  <addons xmi:id="_I11pNHbHEeK6YI08PxLEKA" elementId="org.eclipse.e4.core.commands.service" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
+  <addons xmi:id="_I11pNXbHEeK6YI08PxLEKA" elementId="org.eclipse.e4.ui.contexts.service" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
+  <addons xmi:id="_I11pNnbHEeK6YI08PxLEKA" elementId="org.eclipse.e4.ui.bindings.service" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>
+  <addons xmi:id="_I11pN3bHEeK6YI08PxLEKA" elementId="org.eclipse.e4.ui.workbench.commands.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.CommandProcessingAddon"/>
+  <addons xmi:id="_I11pOHbHEeK6YI08PxLEKA" elementId="org.eclipse.e4.ui.workbench.contexts.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.ContextProcessingAddon"/>
+  <addons xmi:id="_I11pOXbHEeK6YI08PxLEKA" elementId="org.eclipse.e4.ui.workbench.bindings.model" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.swt/org.eclipse.e4.ui.workbench.swt.util.BindingProcessingAddon"/>
+</application:Application>

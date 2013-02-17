@@ -1,0 +1,27 @@
+
+.MTrimmedWindow { 
+   background-color: #e3efff #c1d5ef; 
+}
+
+.MPartStack {
+        font-size: 9;
+        font-family: 'Verdana';
+        swt-simple: true;
+        background-color: #e3efff #c1d5ef;
+        /*background-color: #777777 #373737 #202020 50% 50%;*/
+       
+         
+}
+
+.CTabFolder {
+	border-width: 10;
+	 background-color: #e3efff;
+}
+
+.MTrimBar {
+
+  background-color: #e3efff #c1d5ef;
+  color: white;
+  font: Verdana 8px;
+}
+
